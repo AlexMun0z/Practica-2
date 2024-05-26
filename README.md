@@ -79,7 +79,7 @@ void setup() {
 }
 ```
 S'estableix la configuració inicial del programa:
-- Serial.begin(115200): Inicialitza la comunicació sèrie en 115200 baudis.
+- Serial.begin(115200): Inicialitza la comunicació sèrie en 115200 bauds.
 - pinMode: Es configura button1.PIN com un pin d'entrada amb una resistència pull-up.
 - attachInterrupt: Configura una interrupció al pin del botó que es dispara en detectar un flanc descendent (quan el botó passa de no estar pressionat a estar pressionat).
   
